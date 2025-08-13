@@ -38,7 +38,7 @@ class SportAdapter(val sportslist : ArrayList<SportModel>) :
 
         init {
             sportsname = itemView.findViewById<TextView>(R.id.textView)
-            sportsimage = itemView.findViewById<ImageView>(R.id.imageView)
+            sportsimage = itemView.findViewById<ImageView>(R.id.imageViewCard)
 
             itemView.setOnClickListener {
                 Toast.makeText(itemView.context,
